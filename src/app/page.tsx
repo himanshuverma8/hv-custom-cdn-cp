@@ -144,10 +144,26 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
-          </>
-        )}
-      </main>
+                    </div>
+                  </>
+                )}
+              </main>
+
+              {/* Footer */}
+              <footer className="relative mt-8 sm:mt-12 lg:mt-16">
+                <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
+                  <div className="bg-white/10 dark:bg-gray-800/10 backdrop-blur-2xl rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-2xl border border-white/20 dark:border-gray-700/20">
+                    <div className="flex items-center justify-center">
+                      <div className="flex items-center space-x-2">
+                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full animate-pulse"></div>
+                        <span className="text-sm text-gray-600 dark:text-gray-300 font-medium">
+                          © {new Date().getFullYear()} hv6.dev
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      </footer>
     </div>
   );
 }

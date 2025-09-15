@@ -13,14 +13,14 @@ export default function AnimatedLightningLogo({ className = "w-8 h-8 sm:w-10 sm:
         {/* Background circle with gradient */}
         <defs>
           <linearGradient id="lightningGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#dc2626" />
-            <stop offset="50%" stopColor="#ef4444" />
-            <stop offset="100%" stopColor="#b91c1c" />
+            <stop offset="0%" stopColor="#7f1d1d" />
+            <stop offset="50%" stopColor="#991b1b" />
+            <stop offset="100%" stopColor="#450a0a" />
           </linearGradient>
           <linearGradient id="lightningGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#fef2f2" />
             <stop offset="50%" stopColor="#fca5a5" />
-            <stop offset="100%" stopColor="#dc2626" />
+            <stop offset="100%" stopColor="#7f1d1d" />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
