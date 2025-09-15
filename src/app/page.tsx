@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Image as ImageIcon, FileText, Settings } from 'lucide-react';
 import FileManager from '@/components/FileManager';
 import AuthButton from '@/components/AuthButton';
-import LoginPrompt from '@/components/LoginPrompt';
 import AnimatedLightningLogo from '@/components/AnimatedLightningLogo';
 import { useSession } from 'next-auth/react';
 

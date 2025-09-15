@@ -5,7 +5,7 @@ import { validateAuth } from '@/lib/auth-utils';
 
 export async function POST(request: NextRequest) {
   // Validate authentication
-  const authResult = await validateAuth(request);
+  const authResult = await validateAuth();
   if (!authResult.isAuthenticated) {
     return NextResponse.json({ error: authResult.error }, { status: 401 });
   }
